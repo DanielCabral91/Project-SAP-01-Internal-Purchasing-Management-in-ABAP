@@ -1,0 +1,22 @@
+{
+  "fidelity_status_counts": {
+    "CONFIRMED_FROM_BRIEF": 19,
+    "RECOVERED_FROM_PRIOR_WORK": 3,
+    "RECONSTRUCTED": 7
+  },
+  "data_separation": {
+    "exercise_example_rows": 10,
+    "exercise_example_urgent_flags": 0,
+    "synthetic_demo_rows": 10,
+    "synthetic_demo_urgent_flags": 3,
+    "datasets_separated": true
+  },
+  "live_sap_runtime_tested": false,
+  "original_abapgit_export": false,
+  "original_training_pdf_included": false,
+  "standard_table_choice": "MARA",
+  "standard_table_choice_status": "RECONSTRUCTED",
+  "abaplint_pinned_version": "2.120.35",
+  "ready_for_public_portfolio": true,
+  "ready_to_claim_live_sap_deployment": false
+}
