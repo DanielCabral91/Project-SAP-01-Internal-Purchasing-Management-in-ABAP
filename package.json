@@ -1,0 +1,15 @@
+{
+  "name": "sap-abap-internal-purchasing-management",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio reconstruction of an ABAP internal purchasing management exercise.",
+  "scripts": {
+    "lint": "abaplint"
+  },
+  "devDependencies": {
+    "@abaplint/cli": "2.120.35"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
