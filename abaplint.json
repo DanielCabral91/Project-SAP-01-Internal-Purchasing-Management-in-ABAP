@@ -1,0 +1,24 @@
+{
+  "global": {
+    "files": "/src/**/*.*",
+    "skipGeneratedFunctionGroups": true,
+    "skipIncludesWithoutMain": false,
+    "applyUnspecifiedRules": false
+  },
+  "dependencies": [
+    {
+      "url": "https://github.com/abaplint/deps",
+      "folder": "/deps",
+      "files": "/src/**/*.*"
+    }
+  ],
+  "syntax": {
+    "version": "v740sp08",
+    "errorNamespace": "^(Z|Y|LCL_|TY_|GC_|GV_|GT_|GO_|RB_|S_|P_)",
+    "globalConstants": [],
+    "globalMacros": []
+  },
+  "rules": {
+    "parser_error": true
+  }
+}
