@@ -1,0 +1,30 @@
+component,status,basis,notes
+Business scenario: internal material purchase requests,CONFIRMED_FROM_BRIEF,AC08 brief pp. 2–3,Directly stated in the supplied exercise.
+Status domain CHAR1 with N/P/C/A,CONFIRMED_FROM_BRIEF,AC08 brief p. 3,Directly specified.
+Status/document-ID/urgent data elements,CONFIRMED_FROM_BRIEF,AC08 brief p. 3,Directly specified; AC27 suffix substitutes the trainee placeholder.
+Custom table ZAC08_FINAL_AC27 and its fields,CONFIRMED_FROM_BRIEF,AC08 brief p. 3,Table structure is directly specified.
+Delivery class C and table logging,CONFIRMED_FROM_BRIEF,AC08 brief p. 3,Directly specified.
+"TMG / SM30, One Step, authorization group &NC&",CONFIRMED_FROM_BRIEF,AC08 brief p. 4,Directly specified.
+Function group ZGF_AC08_FINAL_AC27,CONFIRMED_FROM_BRIEF,AC08 brief p. 4,Reconstructed only by replacing the trainee placeholder with AC27.
+10 example rows,CONFIRMED_FROM_BRIEF,AC08 brief p. 4,Copied as fictional exercise data; urgency is blank in the source example.
+Selection screen filters,CONFIRMED_FROM_BRIEF,AC08 brief p. 5,"Document, material, requester and date are specified."
+RB_OPEN / RB_URG / RB_ALL behavior,CONFIRMED_FROM_BRIEF,AC08 brief pp. 5–6,Directly specified.
+Includes _TOP/_SCR/_F01/_C01/_PAI/_PBO,CONFIRMED_FROM_BRIEF,AC08 brief p. 5,Directly specified.
+INITIALIZATION / AT SELECTION-SCREEN / OUTPUT,CONFIRMED_FROM_BRIEF,AC08 brief p. 5,Directly specified.
+Local class LCL_APPL,CONFIRMED_FROM_BRIEF,AC08 brief p. 6,Directly specified.
+PROCESS_ALL / PROCESS_URG / PROCESS_OPEN,CONFIRMED_FROM_BRIEF,AC08 brief p. 6,Directly specified.
+CL_SALV_TABLE and CL_ALV_GUI_GRID,CONFIRMED_FROM_BRIEF,AC08 brief p. 6,Directly specified.
+Screen 0100,RECOVERED_FROM_PRIOR_WORK,Prior work + brief example,The brief gives 0100 as an example; prior work used 0100.
+Custom Control CC_ALV,RECOVERED_FROM_PRIOR_WORK,Prior work,Not named in the supplied brief.
+GUI status STATUS_0100,RECOVERED_FROM_PRIOR_WORK,Prior work,The brief requires a GUI status but does not prescribe its exact name.
+Urgent FM ZAC08_SET_URGENT_AC27 signature,CONFIRMED_FROM_BRIEF,AC08 brief pp. 6–7,Directly specified with trainee placeholder replaced by AC27.
+Adobe interface ZIF_AC08_FINAL_AC27,CONFIRMED_FROM_BRIEF,AC08 brief p. 7,Directly specified with trainee placeholder replaced by AC27.
+Adobe Form ZAF_AC08_FINAL_AC27,CONFIRMED_FROM_BRIEF,AC08 brief p. 7,Directly specified with trainee placeholder replaced by AC27.
+Print class ZCL_AC08_PRINT_AC27,CONFIRMED_FROM_BRIEF,AC08 brief p. 7,Directly specified with trainee placeholder replaced by AC27.
+Exact SQL implementations,RECONSTRUCTED,Portfolio reconstruction,Original executable source was not available.
+Exact validation messages,RECONSTRUCTED,Portfolio reconstruction,Original message texts were not available.
+MARA material-master validation,RECONSTRUCTED,Portfolio reconstruction,Added to satisfy the brief's Z-table + standard-table access requirement transparently.
+Exact PBO/PAI command handling,RECONSTRUCTED,Portfolio reconstruction,Original source was not available.
+Adobe Form function-module call details,RECONSTRUCTED,Portfolio reconstruction,Representative SFP orchestration only; generated FM signature is system-dependent.
+Text mockups,RECONSTRUCTED,Portfolio reconstruction,"Documentation artefacts, not SAP exports."
+abaplint / GitHub Actions,RECONSTRUCTED,Portfolio reconstruction,Portfolio tooling; not part of the original exercise.
