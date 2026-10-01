@@ -154,3 +154,7 @@ This repository does not claim:
 - active Adobe Form generation.
 
 That boundary is intentional and is part of the portfolio's technical integrity.
+
+## License and reuse
+
+No open-source license is granted for this repository at this time. The source code and documentation are published for portfolio, educational and review purposes. Unless a separate license is added later, reuse, redistribution or derivative works require permission from the repository owner. Third-party software, trademarks, training materials and dependencies retain their respective rights and licenses.
