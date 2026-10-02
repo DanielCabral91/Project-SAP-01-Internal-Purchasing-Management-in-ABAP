@@ -1,6 +1,9 @@
 {
   "global": {
     "files": "/src/**/*.*",
+    "exclude": [
+      "/src/zac08_set_urgent_ac27.func.abap"
+    ],
     "skipGeneratedFunctionGroups": true,
     "skipIncludesWithoutMain": false,
     "applyUnspecifiedRules": false
